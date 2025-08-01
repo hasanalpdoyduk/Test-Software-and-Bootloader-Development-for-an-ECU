@@ -1,0 +1,46 @@
+### Footprint positions - created on 2025-03-17T21:16:57+0300 ###
+### Printed by KiCad version 8.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                           PosX       PosY       Rot  Side
+C1        0.1uF/50V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   148.3614  -109.7975  -90.0000  top
+C2        2.2uF/50V          CP_Elec_4x5.3                                 152.5138  -119.0498    0.0000  top
+C3        0.1uF/50V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   160.1978  -130.1750  -90.0000  top
+C4        4700pF/50V         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   149.3680  -126.9238    0.0000  top
+C5        8.2pF/50V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   170.2816  -130.0226  -90.0000  top
+C6        8.2pF/50V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   177.5968  -130.0226   90.0000  top
+C7        2.2uF/25V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   159.9220  -118.4910  180.0000  top
+C8        100nF/50V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   159.9220  -120.2436  180.0000  top
+C9        100nF/50V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   159.9220  -121.9962  180.0000  top
+C10       100nF/25V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   177.6222  -120.8278  -90.0000  top
+C11       100nF/50V          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   167.1309  -128.3462  180.0000  top
+C12       10nF/50V           C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   159.9220  -116.7384  180.0000  top
+C13       10uF/16V           C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   169.5994  -113.1062    0.0000  top
+C14       10nF/50V           C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   159.9220  -123.7488  180.0000  top
+D1        SMAJ36CA           D_SMA                                         143.8958  -114.9350    0.0000  top
+D2        V10P10HM3_A_H      TO-277A                                       143.8733  -110.2850   90.0000  top
+IC1       dsPIC33EV128GM104  TQFP-44_10x10mm_P0.8mm                        169.9890  -120.7666  -90.0000  top
+J1        Conn_01x06         PinHeader_1x06_P2.54mm_Vertical               141.7066  -118.7196    0.0000  top
+J2        Conn_01x09         PinHeader_1x09_P2.54mm_Vertical               188.5442  -111.4552    0.0000  top
+J3        Conn_01x03         PinHeader_1x03_P2.54mm_Vertical               168.7980  -107.4928   90.0000  top
+Q1        CX3225CA-12MHz     CX3225SB40000D0FLJCC                          173.9322  -130.0120    0.0000  top
+R1        300R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   149.3680  -133.4770  180.0000  top
+R2        60.4R/1%           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   149.3680  -131.7244  180.0000  top
+R3        60.4R/1%           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   149.3680  -128.6764    0.0000  top
+R4        1M/1%              R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   176.0017  -133.9342  180.0000  top
+R5        100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   171.8767  -133.9342  180.0000  top
+R6        100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   166.0925  -113.1062  180.0000  top
+R7        10k/1%             R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   159.9220  -125.5014  180.0000  top
+R8        10k/1%             R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -127.9906  180.0000  top
+R9        10k/1%             R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -133.0706  180.0000  top
+R10       10k/1%             R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -122.9106  180.0000  top
+R11       100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -110.2106    0.0000  top
+R12       100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -112.7506    0.0000  top
+R13       100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -115.2906    0.0000  top
+R14       100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -125.4506    0.0000  top
+R15       100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -130.5306    0.0000  top
+R16       100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -120.3706    0.0000  top
+R17       100R/1%            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder   181.4576  -117.8306    0.0000  top
+U1        LF50_TO252         LF50CDTTRY                                    156.2888  -111.2350  180.0000  top
+U2        MCP2561-E-SN       SOIC-8_3.9x4.9mm_P1.27mm                      155.6146  -130.1750  180.0000  top
+## End

@@ -1,0 +1,8373 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2dd75131-87fc-4c2f-b663-82e693651e52")
+	(paper "A3")
+	(title_block
+		(title "Test Software and Bootloader Developement for an ECU")
+		(date "2024-11-20")
+		(rev "v1")
+		(company "Ozyegin University")
+		(comment 1 "EE401 [Fall 2024-25]")
+		(comment 2 "ECU SW Control")
+	)
+	(lib_symbols
+		(symbol "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1005X04*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 1.016) (xy 2.54 1.016) (xy 2.54 -1.016) (xy -2.54 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC1005X06*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMB_UC_DSPIC33EV128GM104_1_Capacitor_1_0"
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.508) (xy -2.032 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Resistor-Chip"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1005X04*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMB_UC_DSPIC33EV128GM104_1_Resistor-Chip_1_0"
+				(polyline
+					(pts
+						(xy 1.016 -2.54) (xy -1.016 -2.54) (xy -1.016 2.54) (xy 1.016 2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_3_Resistor-Chip"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1005X04*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMB_UC_DSPIC33EV128GM104_3_Resistor-Chip_1_0"
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy 1.016 2.54) (xy 1.016 -2.54) (xy -1.016 -2.54) (xy -1.016 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_3_XTAL_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12MHz SMD crystal unit for Automotive, ±30ppm, 10pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*OSC_KSC_DSO321SR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMB_UC_DSPIC33EV128GM104_3_XTAL_4_1_0"
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy -1.016 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0.762) (xy 1.778 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.762) (xy -1.778 -0.762) (xy -1.778 0.762) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 -3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Case"
+					(at -2.794 0 900)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 6.35)
+					(name "OSC1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 1.27 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 6.35)
+					(name "OSC2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ECU_SW_Control_lib:dsPIC33EV128GM104"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -19.05 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "dsPIC33EV128GM104"
+				(at -10.668 -51.308 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/dsPIC33EVXXXGM00X-10X-Family-Data-Sheet-DS70005144H.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16-Bit, 5V Digital Signal Controllers with PWM, SENT, Op Amps and Advanced Analog Features"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "MICROCHIP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "dsPIC33EV128GM104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Ordering_Code" "https://www.microchip.com/en-us/product/dspic33ev128gm104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "dsPIC33EV128GM104_1_1"
+				(rectangle
+					(start -20.32 52.07)
+					(end 19.05 -49.53)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 24.13 -7.62 180)
+					(length 5.08)
+					(name "PWM1H2/RB12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -11.43 180)
+					(length 5.08)
+					(name "PWM1L2/RB13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 27.94 0)
+					(length 5.08)
+					(name "RA10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 35.56 0)
+					(length 5.08)
+					(name "RA7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 0 180)
+					(length 5.08)
+					(name "PWM1H1/RB14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -3.81 180)
+					(length 5.08)
+					(name "PWM1L1/RB15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -17.78 0)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -13.97 0)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 49.53 0)
+					(length 5.08)
+					(name "~{MCLR}"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 21.59 0)
+					(length 5.08)
+					(name "AN0/RA0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 17.78 180)
+					(length 5.08)
+					(name "RC6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 17.78 0)
+					(length 5.08)
+					(name "AN1/RA1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 13.97 0)
+					(length 5.08)
+					(name "AN2/RB0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 10.16 0)
+					(length 5.08)
+					(name "AN3/RB1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 6.35 0)
+					(length 5.08)
+					(name "AN4/RB2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 2.54 0)
+					(length 5.08)
+					(name "AN5/RB3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -31.75 180)
+					(length 5.08)
+					(name "OA3OUT/RC0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -3.81 0)
+					(length 5.08)
+					(name "C3IN1-/RC1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -7.62 0)
+					(length 5.08)
+					(name "C3IN1-/RC2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -27.94 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -41.91 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 13.97 180)
+					(length 5.08)
+					(name "RC7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 43.18 0)
+					(length 5.08)
+					(name "OSC1/RA2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 39.37 0)
+					(length 5.08)
+					(name "OSC2/RA3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 31.75 0)
+					(length 5.08)
+					(name "RA8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -25.4 180)
+					(length 5.08)
+					(name "FLT32/RB4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 35.56 180)
+					(length 5.08)
+					(name "SD01/RA4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 39.37 180)
+					(length 5.08)
+					(name "SDI1/RA9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 31.75 180)
+					(length 5.08)
+					(name "SCK1/RC3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 25.4 180)
+					(length 5.08)
+					(name "RC4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 21.59 180)
+					(length 5.08)
+					(name "RC5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -45.72 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 10.16 180)
+					(length 5.08)
+					(name "RC8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -24.13 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 45.72 180)
+					(length 5.08)
+					(name "PGED2/RB5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 49.53 180)
+					(length 5.08)
+					(name "PGEC2/RB6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -38.1 180)
+					(length 5.08)
+					(name "RB7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -41.91 180)
+					(length 5.08)
+					(name "RB8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 6.35 180)
+					(length 5.08)
+					(name "RC9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -38.1 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -31.75 0)
+					(length 5.08)
+					(name "VCAP"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -15.24 180)
+					(length 5.08)
+					(name "PWM1H3/RB10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -45.72 180)
+					(length 5.08)
+					(name "PWM1L3/RB11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -19.05 180)
+					(length 5.08)
+					(name "PWM1L3/RB11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FTSH-105-01-L-DV-K:FTSH-105-01-L-DV-K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FTSH-105-01-L-DV-K"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "FTSH10501LDVK"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/ftsh-105-01-l-dv-k/samtec"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec, FTSH, 10 Way, 2 Row, Straight Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.1"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FTSH-105-01-L-DV-K"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "200-FTSH10501LDVK"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-105-01-L-DV-K?qs=%252B5JSS813miOqo3Vy%252BvhCFg%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "FTSH-105-01-L-DV-K"
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ftsh-105-01-l-dv-k/samtec?region=europe"
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FTSH-105-01-L-DV-K_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 154.94 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a9bb219-01cc-48e8-be5e-67c09761ec36")
+	)
+	(junction
+		(at 295.91 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "369d1cab-d742-4974-a551-2b55bb75da04")
+	)
+	(junction
+		(at 144.78 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "376d2396-0e3e-4162-ac52-8f440bd0e4aa")
+	)
+	(junction
+		(at 100.33 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37eeb2d0-c147-4839-9b05-0e7bb2f6a775")
+	)
+	(junction
+		(at 187.96 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cac890d-8771-4596-9958-7696aa95ed90")
+	)
+	(junction
+		(at 284.48 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40980202-673a-49ab-af2b-e6da0b5638af")
+	)
+	(junction
+		(at 83.82 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52052dcb-a076-4f5a-9e7d-57b7c788de1a")
+	)
+	(junction
+		(at 273.05 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "639807b5-0b2e-4ea5-8274-0cbb8a47ea15")
+	)
+	(junction
+		(at 144.78 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a4e7bbc-b61d-4d85-bcd1-a8512f64ae55")
+	)
+	(junction
+		(at 118.11 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c4fbea9-b48e-4f29-8d46-50320022d02f")
+	)
+	(junction
+		(at 118.11 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c477cac-1726-4656-b22b-4f83476ed8c1")
+	)
+	(junction
+		(at 120.65 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ae2b6c2-44da-40db-8fee-0e64844ec463")
+	)
+	(junction
+		(at 120.65 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ada5bcf0-aa17-4bf3-9890-b3430480204d")
+	)
+	(junction
+		(at 187.96 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af46b1aa-21f9-41db-b6ca-72a6c6b0b2a2")
+	)
+	(junction
+		(at 214.63 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b836d53e-7d6d-4955-9111-b8112dc32388")
+	)
+	(junction
+		(at 144.78 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c55f6314-c8fc-4d0f-8233-58b26f21f54d")
+	)
+	(junction
+		(at 100.33 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3a2193a-9da4-465f-863f-a2f791daeb90")
+	)
+	(junction
+		(at 83.82 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7209545-c3c6-4c8b-8928-ea73d79f2ef2")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e6b7f7-7a47-4d2c-b0c0-7188fbbdccb7")
+	)
+	(wire
+		(pts
+			(xy 313.69 166.37) (xy 316.23 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f74962-f6f3-406e-b39e-c26e3b634f3f")
+	)
+	(wire
+		(pts
+			(xy 83.82 168.91) (xy 100.33 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0148a585-bdc4-45d5-a0df-6eb20a1ce9a5")
+	)
+	(wire
+		(pts
+			(xy 267.97 111.76) (xy 267.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bfdeef-c740-43f9-9ad5-b9132e21a5ef")
+	)
+	(wire
+		(pts
+			(xy 187.96 148.59) (xy 190.5 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05eb9f38-6fa8-429f-a4a7-6745ba6060ed")
+	)
+	(wire
+		(pts
+			(xy 154.94 119.38) (xy 190.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6a404a-2730-4f74-b825-41d1056c7497")
+	)
+	(polyline
+		(pts
+			(xy 97.79 217.17) (xy 114.3 217.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "0eafbe0f-8f98-4d2b-a311-7145ea7b6195")
+	)
+	(wire
+		(pts
+			(xy 118.11 168.91) (xy 190.5 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f374674-132f-40c4-a86b-7e1781c9bb32")
+	)
+	(wire
+		(pts
+			(xy 246.38 109.22) (xy 246.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10da2189-2cdc-47a0-9045-495fb005b500")
+	)
+	(wire
+		(pts
+			(xy 240.03 109.22) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d4a2ec-3847-49da-b803-91679ecbd5db")
+	)
+	(wire
+		(pts
+			(xy 118.11 214.63) (xy 118.11 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17654598-06b5-4ae8-8741-31e5c5bb89fe")
+	)
+	(wire
+		(pts
+			(xy 100.33 212.09) (xy 100.33 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17837d76-85a1-4725-826d-738b9ba112b7")
+	)
+	(polyline
+		(pts
+			(xy 97.79 233.68) (xy 97.79 217.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "18157397-b142-4eb3-9aa7-085682fd0c1d")
+	)
+	(wire
+		(pts
+			(xy 313.69 104.14) (xy 316.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1ddbe8-8234-4d1c-af44-ef0b9313e59c")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a551fcf-bc3a-4bbe-8c28-afb4cf66f702")
+	)
+	(wire
+		(pts
+			(xy 187.96 172.72) (xy 190.5 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b04104e-6aa6-4ddd-8da1-608566424e56")
+	)
+	(polyline
+		(pts
+			(xy 107.95 201.93) (xy 106.68 203.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "1d2d7c4c-13fe-4867-95c3-46555871cdbc")
+	)
+	(wire
+		(pts
+			(xy 144.78 72.39) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fd4684-59ef-41c1-ab5e-4456bc7bb81b")
+	)
+	(wire
+		(pts
+			(xy 140.97 182.88) (xy 190.5 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266a6fe4-7234-4409-accf-34a82e0d84f3")
+	)
+	(wire
+		(pts
+			(xy 273.05 88.9) (xy 303.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a883a61-e182-427c-8cfb-17b01bcae8db")
+	)
+	(wire
+		(pts
+			(xy 138.43 60.96) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d179421-d686-4d9f-8c6a-278755a19a07")
+	)
+	(wire
+		(pts
+			(xy 242.57 105.41) (xy 242.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e35affe-5f49-4739-87bd-d4d892e1b3c6")
+	)
+	(wire
+		(pts
+			(xy 240.03 148.59) (xy 242.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324b3348-43ee-4489-a07a-34b2dcdecaa7")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346ec41d-d4a4-4097-9038-d904fbc4aa84")
+	)
+	(wire
+		(pts
+			(xy 240.03 154.94) (xy 242.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347196af-bb24-47c0-9719-ae6dfa81a838")
+	)
+	(wire
+		(pts
+			(xy 288.29 166.37) (xy 290.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370d9bbb-be42-47fd-94bd-f899811d1b3b")
+	)
+	(wire
+		(pts
+			(xy 100.33 227.33) (xy 100.33 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fe87b5-8b1e-47d1-98f9-31d8c04e60b4")
+	)
+	(wire
+		(pts
+			(xy 187.96 200.66) (xy 190.5 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38016e10-2328-4abc-bdad-beb40095a9c9")
+	)
+	(wire
+		(pts
+			(xy 187.96 66.04) (xy 187.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393adab2-6b6a-49ed-94f7-5d2d39297b42")
+	)
+	(polyline
+		(pts
+			(xy 127 217.17) (xy 127 201.93)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "3a0673f3-3c5b-4dde-96ca-c1c255064901")
+	)
+	(wire
+		(pts
+			(xy 190.5 105.41) (xy 187.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc0e46d-d4a6-4a79-8809-d654dd6ee677")
+	)
+	(wire
+		(pts
+			(xy 154.94 227.33) (xy 154.94 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5f5005-fea9-4824-b98d-e55cd8abd220")
+	)
+	(wire
+		(pts
+			(xy 240.03 158.75) (xy 242.57 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1dabc8-5150-403d-8f05-fc041179133b")
+	)
+	(wire
+		(pts
+			(xy 240.03 180.34) (xy 242.57 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f842040-0f9d-438f-a3a0-c40c82a6e605")
+	)
+	(wire
+		(pts
+			(xy 92.71 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ae43d4-3bec-459b-abe2-92d9b58f72cb")
+	)
+	(wire
+		(pts
+			(xy 246.38 81.28) (xy 303.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c0438c-0640-4ef3-87dc-5d3cf8c60569")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46eca170-cf7b-44f0-be42-bdfc225b2b0e")
+	)
+	(wire
+		(pts
+			(xy 313.69 88.9) (xy 316.23 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47eb8e48-97cd-4971-9c96-3fb83945ebc5")
+	)
+	(wire
+		(pts
+			(xy 140.97 214.63) (xy 140.97 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e433c6-0c46-4e4a-a972-ecbf8ea13fc6")
+	)
+	(polyline
+		(pts
+			(xy 107.95 217.17) (xy 107.95 201.93)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "4a61efcf-50fd-4b16-a4ce-ecfab46ba5e7")
+	)
+	(wire
+		(pts
+			(xy 240.03 133.35) (xy 267.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae8b870-5384-4296-9e8c-2186e3ba285d")
+	)
+	(polyline
+		(pts
+			(xy 115.57 233.68) (xy 115.57 220.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "4b6c09c8-1c62-4336-b903-2bbc86906e44")
+	)
+	(wire
+		(pts
+			(xy 214.63 50.8) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbd7385-fe77-4f66-9bb1-c69ab0c2859f")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 139.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5247feb2-f63a-407e-93b7-f836a0d4a6d9")
+	)
+	(wire
+		(pts
+			(xy 187.96 152.4) (xy 190.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ee3491-d49c-43d6-a362-e6e29ccc55c4")
+	)
+	(wire
+		(pts
+			(xy 187.96 158.75) (xy 190.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54568049-d211-4966-a4ce-0eaec249d834")
+	)
+	(wire
+		(pts
+			(xy 240.03 119.38) (xy 256.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57441d60-2ba7-4340-aad7-8e58ecee45f9")
+	)
+	(wire
+		(pts
+			(xy 313.69 158.75) (xy 316.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578d2375-750a-47cc-8584-a1543246bb97")
+	)
+	(wire
+		(pts
+			(xy 295.91 118.11) (xy 295.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4e256d-47dc-4b70-bb5b-b048d593aac5")
+	)
+	(wire
+		(pts
+			(xy 313.69 161.29) (xy 316.23 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7a8726-2aa3-447e-a44a-2910f79690eb")
+	)
+	(wire
+		(pts
+			(xy 284.48 96.52) (xy 303.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e85219e-691c-4f4f-bcd9-13c6d62e4ef9")
+	)
+	(wire
+		(pts
+			(xy 261.62 104.14) (xy 295.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bc7cc9-2c97-4626-bf66-2132c7135a0e")
+	)
+	(wire
+		(pts
+			(xy 83.82 162.56) (xy 83.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61473283-e57f-45eb-b3ea-f88a11fd040f")
+	)
+	(wire
+		(pts
+			(xy 313.69 66.04) (xy 316.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6253c34e-c9bb-48b7-873f-8dc1b03a9a74")
+	)
+	(wire
+		(pts
+			(xy 288.29 158.75) (xy 290.83 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655722ad-95a0-4991-8e69-6cc92f7cc7cc")
+	)
+	(wire
+		(pts
+			(xy 273.05 118.11) (xy 273.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aabcd11-cae5-4873-85ed-9a8bcac95e0f")
+	)
+	(wire
+		(pts
+			(xy 273.05 128.27) (xy 273.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b718e8a-d69a-436e-9fdb-b68360925821")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6befb626-7cfe-4c0f-bd23-27b844f54f64")
+	)
+	(wire
+		(pts
+			(xy 267.97 111.76) (xy 303.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfa599e-4729-40c8-9686-9c952cbc1d17")
+	)
+	(wire
+		(pts
+			(xy 313.69 73.66) (xy 316.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d80d9b2-3762-4b31-b524-c520fa4a7515")
+	)
+	(wire
+		(pts
+			(xy 171.45 219.71) (xy 171.45 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f88b4db-603e-448b-9a5e-b8863aa31e07")
+	)
+	(wire
+		(pts
+			(xy 100.33 212.09) (xy 137.16 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fff37ea-4a33-4ecf-a92f-93790de052b4")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a9ac59-9d22-41ce-a920-45fc2dd191cf")
+	)
+	(polyline
+		(pts
+			(xy 127 201.93) (xy 128.27 203.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "73b0140d-fad5-4249-a0ec-3ec610b834a6")
+	)
+	(wire
+		(pts
+			(xy 173.99 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76806b05-54c4-4400-b442-f250aa57357f")
+	)
+	(wire
+		(pts
+			(xy 240.03 123.19) (xy 261.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76aa0d9f-1308-442b-ad5f-d88fa052ca2b")
+	)
+	(polyline
+		(pts
+			(xy 132.08 217.17) (xy 132.08 233.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "80921bff-c44e-442f-8c7f-e5b6787f0ac7")
+	)
+	(polyline
+		(pts
+			(xy 127 201.93) (xy 125.73 203.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "82c6b6d0-b144-4d4d-aea4-94274f5522da")
+	)
+	(wire
+		(pts
+			(xy 240.03 144.78) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871c7b9c-09df-402b-a571-4a0c34a9c69c")
+	)
+	(wire
+		(pts
+			(xy 256.54 96.52) (xy 284.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb8de06-726e-4fb2-8642-e09f7ad12912")
+	)
+	(wire
+		(pts
+			(xy 295.91 128.27) (xy 295.91 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4a08a4-4876-4d9c-a6a0-6e9274a4c15e")
+	)
+	(wire
+		(pts
+			(xy 118.11 214.63) (xy 140.97 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc7b1a3-83ee-4c1b-ae07-d0f0674d6642")
+	)
+	(wire
+		(pts
+			(xy 240.03 115.57) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e2130e-dd6a-463f-9632-2834b48acca4")
+	)
+	(wire
+		(pts
+			(xy 187.96 196.85) (xy 190.5 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bc52b6-e9d3-4c57-917e-83b004310a0c")
+	)
+	(wire
+		(pts
+			(xy 154.94 219.71) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9330c851-715b-46ff-83b1-0e287bc4e126")
+	)
+	(wire
+		(pts
+			(xy 83.82 171.45) (xy 83.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955080e8-962d-442a-b609-17e3f0fe47f4")
+	)
+	(wire
+		(pts
+			(xy 120.65 60.96) (xy 128.27 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965badbc-c768-4c4e-9a9b-f57548ca9580")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989ec937-fb6f-4b8b-8b92-d1f3a77c30f0")
+	)
+	(wire
+		(pts
+			(xy 252.73 88.9) (xy 273.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af08cf8-ce6a-4c72-b88f-29c4a05a7063")
+	)
+	(wire
+		(pts
+			(xy 313.69 81.28) (xy 316.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be3162d-38d8-4d0a-a0cf-5830bc8e0093")
+	)
+	(wire
+		(pts
+			(xy 100.33 179.07) (xy 100.33 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bd3df0-2eaf-450d-aea1-f4184b5d9a69")
+	)
+	(wire
+		(pts
+			(xy 92.71 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16f2c3a-98ce-4b0b-95c0-257e2b66897c")
+	)
+	(polyline
+		(pts
+			(xy 113.03 233.68) (xy 97.79 233.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "a4b62e46-5c9c-443b-8403-624fe6baa60b")
+	)
+	(wire
+		(pts
+			(xy 313.69 156.21) (xy 316.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a690b0aa-38d6-4e4d-b5c7-73d0af2537c1")
+	)
+	(wire
+		(pts
+			(xy 187.96 196.85) (xy 187.96 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99f8f21-d3bb-4ff4-aed0-b986ea98d8f1")
+	)
+	(wire
+		(pts
+			(xy 261.62 104.14) (xy 261.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dbeb2b-8643-4f35-886e-ef73dba15c68")
+	)
+	(wire
+		(pts
+			(xy 187.96 200.66) (xy 187.96 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa17d4a8-db07-4435-b15e-eabf31b0916e")
+	)
+	(wire
+		(pts
+			(xy 288.29 161.29) (xy 290.83 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac23b042-e8cb-4c76-a1cd-7319e58f3b79")
+	)
+	(wire
+		(pts
+			(xy 214.63 63.5) (xy 214.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff5c17e-f6bb-49b2-b904-99e1ac1f34d5")
+	)
+	(wire
+		(pts
+			(xy 214.63 66.04) (xy 214.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f8451c-6aa4-4315-aa3f-ec48b31303fc")
+	)
+	(wire
+		(pts
+			(xy 118.11 227.33) (xy 118.11 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b662b6fb-5feb-48d6-b8d6-39245bc7086e")
+	)
+	(wire
+		(pts
+			(xy 144.78 71.12) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b725c318-a078-46cf-bdf2-891d57662e7e")
+	)
+	(wire
+		(pts
+			(xy 284.48 128.27) (xy 284.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98b292b-f352-4aeb-9104-14889aa46712")
+	)
+	(wire
+		(pts
+			(xy 187.96 200.66) (xy 187.96 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6892d4-22d9-481e-9aec-d52a742fd47b")
+	)
+	(polyline
+		(pts
+			(xy 132.08 233.68) (xy 115.57 233.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "bb004192-0018-4f97-9cfa-a7f87ecc8a5d")
+	)
+	(wire
+		(pts
+			(xy 83.82 73.66) (xy 83.82 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec07e75-6fcd-4647-939f-52cb7615cbbb")
+	)
+	(wire
+		(pts
+			(xy 252.73 88.9) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1050e76-2d3a-47cf-aa4a-b0bae3896075")
+	)
+	(wire
+		(pts
+			(xy 284.48 118.11) (xy 284.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33085b9-8c7a-4881-8abd-26b903f72f19")
+	)
+	(wire
+		(pts
+			(xy 295.91 104.14) (xy 303.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f9d0b6-3fe3-4d01-980d-d41de25a792e")
+	)
+	(wire
+		(pts
+			(xy 118.11 181.61) (xy 118.11 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46e10f8-2da4-410a-91e0-4fe754b3ee5f")
+	)
+	(wire
+		(pts
+			(xy 313.69 96.52) (xy 316.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48aeb89-d213-465e-8853-50d21cdda918")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4aee4bf-a641-4205-ad1e-e72ae154ad49")
+	)
+	(wire
+		(pts
+			(xy 214.63 76.2) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c738c747-0dbe-4f91-9e36-67ee5060755d")
+	)
+	(wire
+		(pts
+			(xy 83.82 179.07) (xy 83.82 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8290366-1c49-4bcb-ba34-293073c31085")
+	)
+	(wire
+		(pts
+			(xy 313.69 111.76) (xy 316.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c75419-fead-4f02-8944-855ceaebabad")
+	)
+	(wire
+		(pts
+			(xy 214.63 66.04) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb61073a-7609-4316-83b5-fa7657b4419b")
+	)
+	(wire
+		(pts
+			(xy 187.96 193.04) (xy 190.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5ec736-f012-4166-9c4e-8caba32c66cc")
+	)
+	(wire
+		(pts
+			(xy 100.33 168.91) (xy 118.11 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3fbd76-c2c1-4da5-913c-7109ee837982")
+	)
+	(wire
+		(pts
+			(xy 242.57 73.66) (xy 303.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c4a0c4-c5f6-49ef-9204-105646c60872")
+	)
+	(wire
+		(pts
+			(xy 118.11 168.91) (xy 118.11 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1664cb7-07a7-47c5-83b0-6baec369288b")
+	)
+	(wire
+		(pts
+			(xy 214.63 66.04) (xy 303.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18e9765-5aac-425f-8a45-7de930373657")
+	)
+	(wire
+		(pts
+			(xy 100.33 209.55) (xy 100.33 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e68fad-5dea-42bb-a36a-02f5a8c27c81")
+	)
+	(wire
+		(pts
+			(xy 187.96 162.56) (xy 190.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ff010f-622e-4fc6-99fa-af34d7fb5b63")
+	)
+	(wire
+		(pts
+			(xy 83.82 72.39) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3186fce-6655-411a-b2ea-df13026b5308")
+	)
+	(wire
+		(pts
+			(xy 100.33 168.91) (xy 100.33 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b06d6b-5e32-4b01-a4ea-1dc8e50939d4")
+	)
+	(wire
+		(pts
+			(xy 118.11 209.55) (xy 118.11 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55abd43-cd75-455f-9065-44ad6d53e1be")
+	)
+	(wire
+		(pts
+			(xy 149.86 119.38) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56cf0f8-3da0-4364-841a-ebd22b89be25")
+	)
+	(polyline
+		(pts
+			(xy 132.08 217.17) (xy 115.57 217.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "d66a7f43-5287-4942-b162-087d33bca53d")
+	)
+	(wire
+		(pts
+			(xy 144.78 72.39) (xy 144.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da44a690-922c-4a8c-b506-61553c212dc4")
+	)
+	(polyline
+		(pts
+			(xy 114.3 217.17) (xy 114.3 233.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "db0fab2f-0b93-4250-affe-30d1ae98b7b2")
+	)
+	(polyline
+		(pts
+			(xy 107.95 201.93) (xy 109.22 203.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "dd470c2a-f854-47ae-a890-650c95bb1be8")
+	)
+	(wire
+		(pts
+			(xy 120.65 60.96) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd781d96-008d-4204-8139-d20654618e92")
+	)
+	(wire
+		(pts
+			(xy 240.03 105.41) (xy 242.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfbdf6d-ac88-46e4-b77a-a5fb10e96009")
+	)
+	(wire
+		(pts
+			(xy 313.69 163.83) (xy 316.23 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18ac708-d61c-4320-b4ae-cb3978c2a215")
+	)
+	(wire
+		(pts
+			(xy 137.16 179.07) (xy 190.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d68785-9c74-4699-835f-02e226f07c06")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70dfeed-deea-4a22-aacb-c7e0a92c30bb")
+	)
+	(wire
+		(pts
+			(xy 288.29 163.83) (xy 290.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d44fd7-3ea9-45b4-83f8-054c2bbdeed5")
+	)
+	(wire
+		(pts
+			(xy 144.78 82.55) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0cbf15-d6c7-4436-9151-64eeb5724418")
+	)
+	(wire
+		(pts
+			(xy 137.16 179.07) (xy 137.16 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7c3945-f387-4f46-975c-61d56d0508d3")
+	)
+	(polyline
+		(pts
+			(xy 115.57 217.17) (xy 115.57 220.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "ecdf3879-00c7-440e-8fcd-c85a43d679e1")
+	)
+	(wire
+		(pts
+			(xy 171.45 227.33) (xy 171.45 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4c440f-08f7-4116-8285-e19b53c701d9")
+	)
+	(wire
+		(pts
+			(xy 256.54 96.52) (xy 256.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0560449-9205-45c7-b977-b8f7fbb3f90c")
+	)
+	(wire
+		(pts
+			(xy 288.29 156.21) (xy 290.83 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08ea3e4-d0b4-4081-93de-dbbbf72e006f")
+	)
+	(wire
+		(pts
+			(xy 92.71 66.04) (xy 92.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ee1cd5-8b08-42da-9b5a-bd36aa674032")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7606d29-7b8d-4e99-b944-ecfff1cef096")
+	)
+	(wire
+		(pts
+			(xy 171.45 186.69) (xy 190.5 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe771e67-d4da-43aa-8514-4a7e017420d2")
+	)
+	(text_box "C11 should be placed close to IC VDD(Pin28)"
+		(exclude_from_sim no)
+		(at 118.11 193.04 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0676d694-45f4-48ea-a9c5-3ee8d74905e5")
+	)
+	(text_box "could not find CX3225 CA (oscillator) 12 MHz \n"
+		(exclude_from_sim no)
+		(at 66.04 60.96 0)
+		(size 25.4 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09aef5c6-5e5d-4b58-b48a-b7e16c01016b")
+	)
+	(text_box "PWM (GPIO kullanılabilir)"
+		(exclude_from_sim no)
+		(at 250.19 157.48 0)
+		(size 15.24 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11beb0d4-7603-4de4-aea6-900b04f8714c")
+	)
+	(text_box "C10 should be placed close to IC VDD(Pin40)"
+		(exclude_from_sim no)
+		(at 99.06 193.04 0)
+		(size 17.78 7.62)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32e06b8f-7143-4ba0-bb24-11fb4096149b")
+	)
+	(text_box "UART RX"
+		(exclude_from_sim no)
+		(at 247.65 143.51 0)
+		(size 10.16 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46dcb045-b188-473a-b4e2-0f1071560d58")
+	)
+	(text_box "R4 1.2M/1% is used instead of 1M/1%"
+		(exclude_from_sim no)
+		(at 109.22 86.36 0)
+		(size 24.13 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9dcddda0-fbc3-4070-82ba-1910c64c4eb6")
+	)
+	(text_box "UART TX"
+		(exclude_from_sim no)
+		(at 247.65 147.32 0)
+		(size 10.16 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e09c0ee9-4bb7-430e-9d9a-df1e5326ef2a")
+	)
+	(label "I_UC_MCLR"
+		(at 316.23 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0625b65e-fc88-4ada-8200-d567b19ceeb4")
+	)
+	(label "I_D_UC_SCK"
+		(at 288.29 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d8861f3-8657-4a7f-a1bf-76f91bb40f4e")
+	)
+	(label "I_C_UC_SPI_MiSO"
+		(at 316.23 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46cb85c6-18a4-403f-9e7c-74e02bc12485")
+	)
+	(label "I_D_UC_SCK"
+		(at 316.23 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59cebe95-16ca-45a1-be83-cf4ecc297816")
+	)
+	(label "I_C_UC_SPI_MiSO"
+		(at 316.23 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6157f0ee-fef2-48b7-90a2-24bd7f7efda1")
+	)
+	(label "O_C_UC_SPI_MOSI"
+		(at 316.23 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61f95df4-76ee-40ed-ad12-ce732d819765")
+	)
+	(label "IO_C_UC_SPI_CLK"
+		(at 316.23 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a7040be-6139-4de1-8235-915c36ec2674")
+	)
+	(label "I_UC_MCLR"
+		(at 316.23 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d2b1e8c-d9ac-4e3b-844b-eb6128be66fc")
+	)
+	(label "IO_D_UC_SS"
+		(at 316.23 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7810a4d1-175d-44a6-bbb4-502857ed1054")
+	)
+	(label "IO_C_UC_SPI_CLK"
+		(at 288.29 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "837fa790-4c4a-496a-b971-a8de7795edc0")
+	)
+	(label "O_C_UC_SPI_MOSI"
+		(at 288.29 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e14a703-8817-4220-a8d6-739055e9abd0")
+	)
+	(label "V5V_ISO"
+		(at 288.29 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f7e0f74-7b5f-4b7a-821c-4b00fe854fca")
+	)
+	(label "GND_HV"
+		(at 288.29 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a878c0ac-b9c6-4fef-a56b-d05d8605ab6b")
+	)
+	(label "IO_D_UC_SS"
+		(at 316.23 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2605c31-8d25-4645-9cef-31f74246d4eb")
+	)
+	(label "IO_D_UC_C_DEBUG"
+		(at 316.23 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c37fa4b8-d94b-40e3-b904-1ce583c7db0b")
+	)
+	(label "I_A_UC_SS"
+		(at 316.23 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db491158-05a1-4515-865e-3ba7c383a58e")
+	)
+	(label "IO_D_UC_C_DEBUG"
+		(at 316.23 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db870379-b911-400b-87d0-35b9536676ec")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 83.82 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05dc5637-4f02-4ad9-a93e-d86186ad7e6d")
+	)
+	(hierarchical_label "O_C_UC_CAN_ISO_TXD"
+		(shape output)
+		(at 187.96 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "152aafa1-6f07-4cc7-9bfa-6612130508c5")
+	)
+	(hierarchical_label "STBY"
+		(shape output)
+		(at 242.57 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17ebc1c5-7532-400c-b331-af1a45eda5d0")
+	)
+	(hierarchical_label "O_D_UC_EN_HV_DISCHARGE"
+		(shape output)
+		(at 242.57 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d595020-48f0-4187-ace2-7e4ab2c9aab2")
+	)
+	(hierarchical_label "I_C_UC_CAN_ISO_RXD"
+		(shape input)
+		(at 187.96 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2103bc47-1806-4eb7-ab53-8cb50f8d8de8")
+	)
+	(hierarchical_label "O_PWM_UC_HS_1"
+		(shape output)
+		(at 242.57 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d0cb170-8cda-49bc-8c17-3508346e5c74")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 242.57 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e4c30fe-882e-4747-b1a6-e4751400bea2")
+	)
+	(hierarchical_label "COMM1"
+		(shape bidirectional)
+		(at 187.96 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0033dc1-ed14-4c2b-a4fb-bc794798b027")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 100.33 209.55 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a40fe197-2359-4936-808c-0f5f7b26251e")
+	)
+	(hierarchical_label "COMM2"
+		(shape bidirectional)
+		(at 187.96 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5b11f7e-660a-499b-a9e5-3b5c95d94cec")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 118.11 209.55 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfa7eec3-536c-4c9f-acf7-514a1bc1fd78")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 242.57 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0d74db5-5bd2-4465-bbb6-f49f76dcf076")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 214.63 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce23c91b-c2ea-47dd-97bb-cf947c5c889a")
+	)
+	(hierarchical_label "I_A_UC_PM_TEMP"
+		(shape input)
+		(at 134.62 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e43397d6-de88-47b0-8969-67314668411e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0013b9ab-e2f4-4ce1-8189-3eafb9edd0ca")
+		(property "Reference" "#PWR023"
+			(at 273.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f4e526-9625-4be7-aebd-219bdf9f5a7f")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0744a53e-2085-4793-bb84-b61e3696e868")
+		(property "Reference" "#PWR020"
+			(at 187.96 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68ba0812-0e92-4938-83f3-c7f265432f4f")
+		)
+		(instances
+			(project ""
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 144.78 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18f38afb-453c-440f-a909-653de4e16175")
+		(property "Reference" "C5"
+			(at 147.32 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 147.32 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "8.2pF"
+			(at 142.494 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 142.494 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 140.462 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0805DRNPO9BN8R2"
+			(at 140.462 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CC0805DRNPO9BN8R2/748686"
+			(at 140.462 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9508fcde-5334-46d9-94ef-36c396f8ca5d")
+		)
+		(pin "2"
+			(uuid "fd3cda05-4ee8-4f28-a1a5-3061353f96a9")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dcfa282-574c-48c0-aa6d-2627b028e7a7")
+		(property "Reference" "#PWR019"
+			(at 181.61 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b26f12e-bd48-4da4-a425-6ff5172690b6")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 118.11 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22798a4a-8ed5-42f7-b649-858cefa80303")
+		(property "Reference" "C11"
+			(at 120.142 223.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 120.142 225.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 118.11 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100nF"
+			(at 114.808 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 121.412 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 113.792 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B104KBP5PNF"
+			(at 113.792 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/capacitors/smt-smd-and-mlcc-capacitors/CL31B104KBP5PNF/523341"
+			(at 118.11 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "182e77e6-bda4-4c1a-86fb-7447b410b139")
+		)
+		(pin "2"
+			(uuid "2ed4dbad-3b63-48a8-91da-585d66eab74a")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Resistor-Chip")
+		(at 273.05 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35ecd3a9-b321-42e5-a916-65f0ab265ca8")
+		(property "Reference" "R8"
+			(at 274.32 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 274.32 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 273.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "10k"
+			(at 271.78 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 271.78 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 273.05 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CQ06S4F1002T5E"
+			(at 271.78 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/CQ06S4F1002T5E/588060"
+			(at 267.462 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df5722ee-831e-4fe6-8b67-a68d7d057539")
+		)
+		(pin "1"
+			(uuid "b7cfb087-244b-4f3d-a062-7434ac8bf520")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ffddf26-ba75-4ed8-9ea3-dc34399848b3")
+		(property "Reference" "#PWR018"
+			(at 171.45 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "022f229d-e718-4918-960e-bb2506ccf617")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bdb63dd-7513-4761-a0b3-cde0e8bf80c4")
+		(property "Reference" "#PWR022"
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68114de5-9649-4879-8abd-c11ebf265c79")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 100.33 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c7bbc86-7232-4eae-a0e6-55558a3a08fb")
+		(property "Reference" "C8"
+			(at 102.616 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 102.616 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 100.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100nF"
+			(at 97.028 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 103.632 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 102.616 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B104KBP5PNF"
+			(at 96.012 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/capacitors/smt-smd-and-mlcc-capacitors/CL31B104KBP5PNF/523341"
+			(at 96.012 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01bc861-be25-4966-8214-5443808a2688")
+		)
+		(pin "2"
+			(uuid "87c3d26e-1569-489b-ab08-e3fe20f41e34")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52cee75c-00bd-4d10-8147-e827b823f379")
+		(property "Reference" "#PWR024"
+			(at 284.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e98d034-cff1-47b5-afd1-09f2dad91856")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Resistor-Chip")
+		(at 295.91 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5819cf2d-920f-43e0-9baf-c50a2d591e7d")
+		(property "Reference" "R10"
+			(at 297.18 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 297.18 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 295.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 295.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "10k"
+			(at 294.64 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 294.64 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 295.91 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CQ06S4F1002T5E"
+			(at 294.64 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/CQ06S4F1002T5E/588060"
+			(at 290.322 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b602d8bf-0a5f-4dd8-9702-02d930639b1b")
+		)
+		(pin "1"
+			(uuid "42d5bb74-ad3c-41b0-b415-731821ce703d")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 308.61 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b2e5fbf-4eed-4428-ac7e-657d07c3592f")
+		(property "Reference" "R17"
+			(at 306.832 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 304.546 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 308.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 303.784 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 309.118 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 308.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 303.022 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 303.022 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d1c4f05-391f-4b28-8044-7f34d94c4970")
+		)
+		(pin "2"
+			(uuid "8994827c-dc03-4cb3-94e4-fec290ee2d41")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 154.94 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63601349-667a-42c5-a0bb-6844f95a555a")
+		(property "Reference" "C12"
+			(at 156.972 223.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 156.972 225.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 154.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "10nF"
+			(at 152.654 219.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 152.654 219.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 150.622 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B103KB6WPNC"
+			(at 150.622 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL21B103KB6WPNC/412406 "
+			(at 150.622 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caa59729-c8fa-4c16-87c4-31cbad82d76f")
+		)
+		(pin "2"
+			(uuid "f02dee0a-8cc7-4aac-825b-232f8f9ccc09")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77de7101-cc99-4aef-b558-4360e4f19679")
+		(property "Reference" "#PWR025"
+			(at 295.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60119b0-8d55-4224-94ff-d8ab8957b7c1")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 308.61 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78b5f250-7687-4f72-840e-0f35fa316b6a")
+		(property "Reference" "R11"
+			(at 306.578 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 304.038 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 308.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 303.784 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 309.118 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 303.022 -35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 303.022 -35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 308.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cec2e81-a737-44bd-adf9-97a07d59418e")
+		)
+		(pin "2"
+			(uuid "2ed45987-edb4-42b7-96de-ccc18cee1f30")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79c49fae-13d5-44bf-8c5a-2c3dba348618")
+		(property "Reference" "#PWR010"
+			(at 100.33 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e33f5ba-fcec-43cb-b5ed-36531dbdc55d")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 83.82 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e1b66ef-c653-4973-bf04-601d604a093f")
+		(property "Reference" "C7"
+			(at 86.106 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 86.106 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "2.2uF"
+			(at 81.534 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 81.534 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 79.502 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B225KAFVPNE"
+			(at 79.502 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL21B225KAFVPNE/597133"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8011f81d-0dc2-417f-81df-fd6693c10ae8")
+		)
+		(pin "2"
+			(uuid "07dc61d3-6c7d-4e35-9194-d714555345f7")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Resistor-Chip")
+		(at 120.65 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8362ed1f-5e95-41b9-b9ac-cdc906074017")
+		(property "Reference" "R4"
+			(at 122.174 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 122.174 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "1.2M"
+			(at 119.38 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 119.38 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 115.062 -28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805S8F1204T5E"
+			(at 115.062 -28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0805S8F1204T5E/530682"
+			(at 115.062 -28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d98085fe-9b80-48c3-ab65-4e538b83fdad")
+		)
+		(pin "2"
+			(uuid "9b0d88bb-e7d4-40ab-90e1-90e9c7b9a655")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 308.61 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88b8d48d-bd07-46bd-ac82-e9460ce30e64")
+		(property "Reference" "R12"
+			(at 306.578 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 304.038 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 308.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 303.784 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 309.118 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 308.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 303.022 -28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 303.022 -28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2ae71fe-96ed-4e1b-a648-fad588cbb7bc")
+		)
+		(pin "1"
+			(uuid "f02ba9b8-0931-4b98-a975-571f581d4e6d")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 133.35 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8983e684-595f-48e1-a1d6-c5a2647b4b9f")
+		(property "Reference" "R5"
+			(at 131.826 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 129.032 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 128.524 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 133.858 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 127.762 -40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 127.762 -40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baa78ca6-bc53-47fc-b837-cc936e23a1e3")
+		)
+		(pin "1"
+			(uuid "a06d4679-599d-486c-a792-75d903623ba3")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 100.33 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d46b605-5019-4dc0-b46f-50affa737778")
+		(property "Reference" "C10"
+			(at 102.362 223.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 102.362 225.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 100.33 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100nF"
+			(at 97.028 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 103.632 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 96.012 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B104KO8WPNC"
+			(at 96.012 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL10B104KO8WPNC/522227"
+			(at 100.33 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad6205c-c61d-444e-8cd0-aeb8f0433d59")
+		)
+		(pin "2"
+			(uuid "fcac39b9-08ac-4e99-a488-28a6f7e2c73a")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_3_Resistor-Chip")
+		(at 214.63 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f866bf2-198c-4f16-8d32-d707d3c02554")
+		(property "Reference" "R7"
+			(at 216.408 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 216.408 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "10k"
+			(at 213.36 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.36 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 209.042 -43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CQ06S4F1002T5E"
+			(at 209.042 -43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/CQ06S4F1002T5E/588060"
+			(at 209.042 -43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f30209d-f559-48da-9309-38d36dbbda86")
+		)
+		(pin "1"
+			(uuid "a8ffc122-c5b3-4144-aeee-78c29a1ab5c6")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_3_XTAL_4")
+		(at 92.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fdfa942-b9b3-443d-a619-973f22dddc04")
+		(property "Reference" "Q1"
+			(at 97.028 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${PART_VALUE}"
+			(at 97.028 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12MHz SMD crystal unit for Automotive, ±30ppm, 10pF"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_VALUE" "CX3225SA-12.000M"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_NUMBER" "0447.00022"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "3225"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE MIN" "-40°C"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE MAX" "150°C"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "Crystal"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE" "YES"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "SMD"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Kyocera_CX3225SA_Datasheet_02.2019.pdf"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "C~{:}__Altiu~{m}03_AVL_EHW_Comp_Li~{b}Datashee~{t}0447_Freq_Control_Timing_De~{v}Kyocera_CX3225SA_Datasheet_02.2019.pdf"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER #1" "Kyocera"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ORDERING CODE #1" "CX3225SA12000F0KTWZ1"
+			(at 84.582 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "982a071f-9850-4205-97a8-5b57849c9746")
+		)
+		(pin "3"
+			(uuid "79b4a279-c346-4732-b156-3c7098636a71")
+		)
+		(pin "1"
+			(uuid "fdecafc3-efc9-494f-b2e1-98b009f33a6d")
+		)
+		(pin "2"
+			(uuid "b6f5df04-2ec0-41c2-a133-0dfb8dbcc0d6")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 171.45 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9113f568-5c57-4e70-a7c8-62fba08f20cb")
+		(property "Reference" "C13"
+			(at 173.482 222.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 173.482 225.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 171.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "10uF"
+			(at 169.164 219.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 169.164 219.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MURATA"
+			(at 167.132 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRT188C81C106ME13D"
+			(at 167.132 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/GRT188C81C106ME13D/732963 "
+			(at 167.132 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebf42329-9973-4484-a189-aacae481cc94")
+		)
+		(pin "1"
+			(uuid "e6a2e500-0a30-445f-afdf-fdf8552b105b")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91208f22-192d-42b2-8f12-8629bb3f11b1")
+		(property "Reference" "#PWR011"
+			(at 100.33 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b53ac12-f41a-4075-bdca-d58bd62fd2e8")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 214.63 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94a14947-6852-4955-b3c1-3e0e709aa593")
+		(property "Reference" "C14"
+			(at 217.17 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 217.17 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 214.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "10nF"
+			(at 212.344 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 212.344 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 216.916 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B103KB6WPNC"
+			(at 212.344 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL21B103KB6WPNC/412406 "
+			(at 210.312 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fe9a7e2-5769-4d62-a273-28629386508c")
+		)
+		(pin "1"
+			(uuid "99c80fa6-daf7-47d9-b129-4bb69b08f37b")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "952fa95c-7628-4914-b906-1f66ddf49af4")
+		(property "Reference" "#PWR015"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf003523-06de-4910-ad07-ab6f6750f1fa")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 308.61 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96574fab-a0ed-4243-9b61-9d40000a1526")
+		(property "Reference" "R16"
+			(at 306.832 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 304.292 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 308.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 303.784 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 309.118 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 308.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 303.022 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 303.022 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32921f56-35e1-48da-8805-9609ae1f32e1")
+		)
+		(pin "2"
+			(uuid "dc62b0f1-3d62-48d4-b6fd-2db15fc7c121")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 308.61 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "967d1dde-6225-4c56-863f-08a71f4c8f48")
+		(property "Reference" "R15"
+			(at 306.578 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 304.292 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 308.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 303.784 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 309.118 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 308.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 303.022 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 303.022 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f64453e5-e29a-46a6-9e6e-d647760a16ee")
+		)
+		(pin "1"
+			(uuid "564f0d9a-fd83-41b5-86b6-53459019ab2e")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 118.11 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a61abf2a-bb48-45b3-8bf0-af52add75829")
+		(property "Reference" "C9"
+			(at 120.396 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 120.396 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100nF"
+			(at 114.808 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 121.412 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 120.396 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B104KBP5PNF"
+			(at 113.792 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/capacitors/smt-smd-and-mlcc-capacitors/CL31B104KBP5PNF/523341"
+			(at 113.792 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91a4e972-bc1d-4190-87e3-ed2f40b1be75")
+		)
+		(pin "2"
+			(uuid "1a6b2f2f-6ce6-4df5-872a-fe6a2b7a13e9")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 308.61 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b20ef458-5a08-4a40-8066-dcb790f0e25b")
+		(property "Reference" "R14"
+			(at 306.578 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 304.038 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 308.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 303.784 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 309.118 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 308.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 303.022 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 303.022 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07207aa9-101e-40d9-8aff-bda45cca143b")
+		)
+		(pin "1"
+			(uuid "ff2af32e-90ff-4774-a97b-3feb01cc01f1")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b270e190-8204-4682-871f-c076b02684f1")
+		(property "Reference" "#PWR017"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ed775cd-3d74-4e1e-8084-b380017030a8")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FTSH-105-01-L-DV-K:FTSH-105-01-L-DV-K")
+		(at 290.83 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8cd9426-426e-42ca-8c2d-26611692c386")
+		(property "Reference" "J2"
+			(at 302.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FTSH-105-01-L-DV-K"
+			(at 302.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECU_SW_Control_lib:FTSH10501LDVK"
+			(at 309.88 251.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/ftsh-105-01-l-dv-k/samtec"
+			(at 309.88 351.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec, FTSH, 10 Way, 2 Row, Straight Pin Header"
+			(at 290.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.1"
+			(at 309.88 551.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 309.88 651.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FTSH-105-01-L-DV-K"
+			(at 309.88 751.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-FTSH10501LDVK"
+			(at 309.88 851.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-105-01-L-DV-K?qs=%252B5JSS813miOqo3Vy%252BvhCFg%3D%3D"
+			(at 309.88 951.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FTSH-105-01-L-DV-K"
+			(at 309.88 1051.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ftsh-105-01-l-dv-k/samtec?region=europe"
+			(at 309.88 1151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Orderin Code" "https://ozdisan.com/connectors-and-interconnects/headers/pin-headers/FTSH-105-01-L-DV-K/609871"
+			(at 290.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "84421339-4ee2-46dc-9ff0-ea8fbd40622a")
+		)
+		(pin "6"
+			(uuid "725aec1f-ddc3-41ed-ba0e-f1e8a07d8588")
+		)
+		(pin "1"
+			(uuid "44622423-62ab-4c7f-9b97-b0d5e47a2678")
+		)
+		(pin "9"
+			(uuid "7f556da1-9dfe-4819-ac5c-26d375f8ed6c")
+		)
+		(pin "2"
+			(uuid "7b3a0957-4e93-4756-aef3-61dd9c3c5907")
+		)
+		(pin "4"
+			(uuid "ed13d745-7802-43d7-a2fc-cc74fb4dc640")
+		)
+		(pin "8"
+			(uuid "d5659332-2099-4358-abf5-c45b593670fb")
+		)
+		(pin "10"
+			(uuid "cc835cd6-1a7c-43a1-bf08-13b50b162219")
+		)
+		(pin "5"
+			(uuid "81c90797-0b9f-46df-8567-f85e3b59f8ba")
+		)
+		(pin "3"
+			(uuid "b150275f-2e50-43c6-9a70-625a7844a70e")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6bb53df-741d-4ed7-995a-73db2ff98f47")
+		(property "Reference" "#PWR016"
+			(at 154.94 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff163e84-e057-43a0-9370-54b8e5d4d874")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfef0037-f16f-4807-ac09-b9e3cd6b4b1a")
+		(property "Reference" "#PWR08"
+			(at 83.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "476b29bb-a4ad-4279-aa82-347f0dea5435")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d171545b-5a2c-4076-8e3e-60f2424f5383")
+		(property "Reference" "#PWR013"
+			(at 118.11 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18427db1-9b9b-41f6-9e3f-96b1f4868b89")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Capacitor")
+		(at 144.78 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc30a785-2932-4124-ba5c-3279ad18597d")
+		(property "Reference" "C6"
+			(at 147.32 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Voltage}"
+			(at 147.32 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "8.2pF"
+			(at 142.494 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 142.494 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 147.066 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0805DRNPO9BN8R2"
+			(at 142.494 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CC0805DRNPO9BN8R2/748686"
+			(at 140.462 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b80e86-1738-43e9-9f10-2843132ec853")
+		)
+		(pin "2"
+			(uuid "160c01f0-be0a-44ab-8515-af730f098734")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f705b3-1430-4ac0-97b2-99df844c3ce1")
+		(property "Reference" "#PWR014"
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7b6c3d2-b341-4012-89b2-7a27bd549986")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 144.78 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7a17faf-3d6a-4a81-a011-e08f2972d17f")
+		(property "Reference" "R6"
+			(at 143.51 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 140.208 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 139.954 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 145.288 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 139.192 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 139.192 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Orderin Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e790797f-39a8-4af1-86b1-2dee8e53d39d")
+		)
+		(pin "1"
+			(uuid "3aaff4b7-b01d-4435-b695-ed043584686c")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_1_Resistor-Chip")
+		(at 284.48 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7ef395d-d8bf-4915-9ac4-eaaffcb8e288")
+		(property "Reference" "R9"
+			(at 285.75 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 285.75 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 284.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 284.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "10k"
+			(at 283.21 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 283.21 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROYALOHM"
+			(at 284.48 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CQ06S4F1002T5E"
+			(at 283.21 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/CQ06S4F1002T5E/588060"
+			(at 278.892 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f05f4ce2-ac91-4c30-95ca-afff2ff2bc81")
+		)
+		(pin "1"
+			(uuid "b18045e2-0f14-4040-a98b-abefb7c1c33c")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECU_SW_Control_lib:dsPIC33EV128GM104")
+		(at 215.9 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee90fb9f-427f-4372-afef-86549c0c1bd2")
+		(property "Reference" "IC1"
+			(at 215.265 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "dsPIC33EV128GM104"
+			(at 215.265 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/dsPIC33EVXXXGM00X-10X-Family-Data-Sheet-DS70005144H.pdf"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-Bit, 5V Digital Signal Controllers with PWM, SENT, Op Amps and Advanced Analog Features"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MICROCHIP"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "dsPIC33EV128GM104"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://www.microchip.com/en-us/product/dspic33ev128gm104"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "38"
+			(uuid "49e9e516-2b09-40ac-845e-19a2786ab89d")
+		)
+		(pin "6"
+			(uuid "db2f42a2-64b5-40ca-8c0c-313b90b90cc9")
+		)
+		(pin "5"
+			(uuid "017ae442-a32e-4327-a1eb-1bf2244bea36")
+		)
+		(pin "13"
+			(uuid "310e6807-b8d8-489c-84a4-146a17e7cf3a")
+		)
+		(pin "34"
+			(uuid "5d799852-b034-4e36-88ea-634642e647da")
+		)
+		(pin "16"
+			(uuid "ac1e8fd5-ccf0-43fd-bf19-b56357e99433")
+		)
+		(pin "17"
+			(uuid "cf366216-a1c2-4c1c-ac8d-21276d086c45")
+		)
+		(pin "29"
+			(uuid "8334a330-e725-42b3-9cd6-6d62b48769a0")
+		)
+		(pin "39"
+			(uuid "244697d5-1366-4930-90e3-8a086d4891d3")
+		)
+		(pin "26"
+			(uuid "5635f4a8-e975-4836-931b-f60defd7c748")
+		)
+		(pin "31"
+			(uuid "001f2d05-b1f7-414a-8c97-50ddf767892b")
+		)
+		(pin "14"
+			(uuid "911d9cb0-af1b-48d2-bfb7-d7632faeaa76")
+		)
+		(pin "30"
+			(uuid "e4d3fe7b-6c78-44b3-967d-627cd2975b50")
+		)
+		(pin "4"
+			(uuid "0a491d19-e086-4631-be58-d0ddc0ec0d98")
+		)
+		(pin "40"
+			(uuid "e01ebe89-ce8a-4019-8601-f1dec19f73dd")
+		)
+		(pin "32"
+			(uuid "d032b2fb-2ec0-4de2-ba6f-4a78cebde23f")
+		)
+		(pin "25"
+			(uuid "a0138ade-ad5b-4f98-8a74-a428e5fe4613")
+		)
+		(pin "42"
+			(uuid "96313570-72b5-4513-b9af-b8b48c67251a")
+		)
+		(pin "11"
+			(uuid "2518ed7e-759f-4962-a190-6572aec1c266")
+		)
+		(pin "7"
+			(uuid "88def96c-254c-4f26-b994-5182d5ff159f")
+		)
+		(pin "9"
+			(uuid "991c4787-59da-4c5d-9a3e-462b6a07aa2d")
+		)
+		(pin "27"
+			(uuid "eaf82e77-0cb1-4248-b107-bf1be66ed61f")
+		)
+		(pin "24"
+			(uuid "5ef58ce4-99a2-463f-af64-85307fbeade0")
+		)
+		(pin "37"
+			(uuid "e2ee56ef-6ad2-4d1c-96e4-82e156a28ab9")
+		)
+		(pin "44"
+			(uuid "731751a5-462c-4f9b-ac03-a1a2f999b2ff")
+		)
+		(pin "22"
+			(uuid "7f45885a-6d59-4a13-81d7-8a3c5c788ace")
+		)
+		(pin "8"
+			(uuid "a7cb3775-3958-47c0-bbf0-031547ac34ff")
+		)
+		(pin "12"
+			(uuid "2ae262c2-3a68-478a-bc01-832be49f36fa")
+		)
+		(pin "23"
+			(uuid "da456bf6-f77b-4c9c-9288-3869042f706c")
+		)
+		(pin "18"
+			(uuid "f5e5958d-eb18-496e-84ed-f44fb17121e9")
+		)
+		(pin "41"
+			(uuid "2b2ca430-e6e2-4761-8d85-47374e013d46")
+		)
+		(pin "15"
+			(uuid "31a7a1e8-a0df-4061-8dd9-ba448927ef94")
+		)
+		(pin "10"
+			(uuid "19c3af46-750d-4672-9d7c-051f6c054ccd")
+		)
+		(pin "19"
+			(uuid "4bf4008c-08eb-4eae-9e83-36aa14ab75cf")
+		)
+		(pin "20"
+			(uuid "2b9db533-7c49-48fd-9e2d-91642821a1e7")
+		)
+		(pin "33"
+			(uuid "1d545fe7-9ca4-410c-bcf5-bbf5311a0f1d")
+		)
+		(pin "36"
+			(uuid "ed59cf71-3e7b-4b83-8fc3-e5444a5c8517")
+		)
+		(pin "21"
+			(uuid "d9729c05-a1d3-4d4f-b9c6-97f5b511879b")
+		)
+		(pin "35"
+			(uuid "be2d13f6-abf7-4c90-9bcf-44918869f9ad")
+		)
+		(pin "43"
+			(uuid "caa2d76b-201d-4799-a3cc-71308cc16ea6")
+		)
+		(pin "9"
+			(uuid "5217bf96-9822-4583-b3be-8f83c0f43f6f")
+		)
+		(pin "2"
+			(uuid "a967793c-24ac-4f40-b57c-678f8c66e257")
+		)
+		(pin "28"
+			(uuid "0ccd25dd-a5a5-4f31-852d-555660b61fac")
+		)
+		(pin "3"
+			(uuid "36103b62-53a6-4526-9313-cb54e5127ae0")
+		)
+		(instances
+			(project ""
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium2KiCAD-altium-import:EMB_UC_DSPIC33EV128GM104_0_Resistor-Chip")
+		(at 308.61 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd724ac0-2435-4e99-9c35-d51725c0d523")
+		(property "Reference" "R13"
+			(at 306.578 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${Part_Value}/${Tolerance}"
+			(at 304.292 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 308.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Value" "100R"
+			(at 303.784 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 309.118 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 308.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC1206FR-07100RL"
+			(at 303.022 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ordering_Code" "https://ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/AC1206FR-07100RL/775440"
+			(at 303.022 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bce4e86-d1f6-4eef-b09e-283d101754dc")
+		)
+		(pin "1"
+			(uuid "39664016-e86c-4879-91fa-b206c41e9358")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78/136f63bc-0aeb-45c2-9781-e0e8ee1620e8"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

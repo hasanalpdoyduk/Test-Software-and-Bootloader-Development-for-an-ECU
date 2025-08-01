@@ -1,0 +1,557 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "22b5686d-4066-4cca-b3fa-7f651d3b4e78")
+	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2024-11-20")
+		(rev "v1")
+		(company "${uni_name}")
+		(comment 1 "${course_date}")
+		(comment 2 "${folder_name}")
+	)
+	(lib_symbols)
+	(junction
+		(at 180.34 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8680857-0ff0-4afa-b862-6900af17307b")
+	)
+	(wire
+		(pts
+			(xy 194.31 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a11da7-f40d-4ba3-9be9-3457636642b8")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddc1443-ceba-43be-90d1-03b38ae75d6b")
+	)
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f562b33-2cf4-44e0-8326-f669e3e58bd3")
+	)
+	(wire
+		(pts
+			(xy 215.9 90.17) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e3551b-6cd9-4848-a88d-298308835dcf")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c3fd31-6f83-4fac-be36-e741557cdca0")
+	)
+	(wire
+		(pts
+			(xy 194.31 102.87) (xy 199.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dc21bb-ead3-4250-9897-9f7db2724b73")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f65ebc6-a39a-4623-84f9-a82246dcd530")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 199.39 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83526ca4-8e19-4db2-8ca9-2ad5b172f194")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 165.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838f7f24-43d8-4aa5-a22c-94c61425b3a9")
+	)
+	(wire
+		(pts
+			(xy 104.14 125.73) (xy 199.39 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871a44d5-0cea-4965-98cf-6f6545c3b548")
+	)
+	(wire
+		(pts
+			(xy 138.43 71.12) (xy 143.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89258d1d-aa4b-42da-be7f-8daebe13b296")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ee7390-0bdb-47a3-9563-c8466ecf7de5")
+	)
+	(wire
+		(pts
+			(xy 180.34 71.12) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e04cc5-0ddb-438f-bbe7-7b1334fe5288")
+	)
+	(sheet
+		(at 109.22 58.42)
+		(size 29.21 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 248 222 1.0000)
+		)
+		(uuid "005f975a-6bfd-47ee-a9d9-1850e79ea296")
+		(property "Sheetname" "Voltage Protection"
+			(at 109.22 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_Protection.kicad_sch"
+			(at 109.22 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BAT" input
+			(at 109.22 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "654df133-8a82-41ab-a478-a393b2615e13")
+		)
+		(pin "V_BATPROT" output
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "160fb595-8e2e-4858-ad42-d4c58f6d7b99")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 90.17)
+		(size 29.21 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 248 222 1.0000)
+		)
+		(uuid "097d8341-7c77-478e-a7fc-1c801e4fd53b")
+		(property "Sheetname" "CAN"
+			(at 165.1 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 165.1 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 165.1 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc47cd0d-66e1-4266-8d27-8db42050260e")
+		)
+		(pin "RX" output
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76593cfb-d507-462a-acde-7bec747ffe00")
+		)
+		(pin "TX" input
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8306e7bc-963d-4e53-8684-46a5a4279392")
+		)
+		(pin "STBY" input
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0c79bb11-994f-4110-b1ac-cf5d62fde588")
+		)
+		(pin "5V" input
+			(at 180.34 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c1e05ce-7a18-42cf-af22-1de5c4d066c5")
+		)
+		(pin "CAN+" bidirectional
+			(at 165.1 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efa6e34c-2a4b-46fa-ad66-f36404846a3c")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 90.17)
+		(size 31.75 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 197 211 232 1.0000)
+		)
+		(uuid "136f63bc-0aeb-45c2-9781-e0e8ee1620e8")
+		(property "Sheetname" "MCU"
+			(at 199.39 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 199.39 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 215.9 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b9f7abd-2761-4775-9650-be777f7462de")
+		)
+		(pin "STBY" output
+			(at 199.39 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecd3f189-5fcb-465c-8143-d6467a8ed091")
+		)
+		(pin "O_CAN_C_TX" output
+			(at 199.39 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b4d6f4e-c8b0-47f8-bcc0-f94a1dcecbd1")
+		)
+		(pin "I_CAN_C_RX" input
+			(at 199.39 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dda195c0-c7f6-45ba-812b-627702ec140c")
+		)
+		(pin "I_UART_C_RX" input
+			(at 199.39 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0ba2c86-29df-4052-843d-c3062948ca3b")
+		)
+		(pin "O_UART_C_TX" output
+			(at 199.39 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce24b2cf-b73e-4e7c-9234-e0a72350134d")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 58.42)
+		(size 29.21 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 248 222 1.0000)
+		)
+		(uuid "8a638086-9898-477a-bb8a-3f01eb849e9b")
+		(property "Sheetname" "LDO"
+			(at 143.51 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LDO.kicad_sch"
+			(at 143.51 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BATPROT" input
+			(at 143.51 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d984ca2-2783-4152-a79f-ce86c8fe71bd")
+		)
+		(pin "5V" output
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd74083b-4595-48a3-af84-17da8254ec31")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 58.42)
+		(size 19.05 76.2)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 208 232 197 1.0000)
+		)
+		(uuid "d7bad02b-04f9-49b3-b559-76f4be0f13bc")
+		(property "Sheetname" "Connector"
+			(at 85.09 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 85.09 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85801d78-d4ae-49c2-93f6-adab03e6882a")
+		)
+		(pin "COMM1" bidirectional
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73c9c300-eda6-494f-8513-e24e82b88d2e")
+		)
+		(pin "CAN+" bidirectional
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb6ccf91-4da8-4941-b376-51706b7ff415")
+		)
+		(pin "V_BAT" output
+			(at 104.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "afeec69c-0402-4082-93b1-d9b95b7ce378")
+		)
+		(pin "COMM2" bidirectional
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f013907a-8bc4-4824-9488-0fd0bebd63dd")
+		)
+		(instances
+			(project "ECU_SW_Control"
+				(path "/22b5686d-4066-4cca-b3fa-7f651d3b4e78"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

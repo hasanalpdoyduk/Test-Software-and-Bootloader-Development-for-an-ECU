@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ECU_SW_Control_lib")(type "KiCad")(uri "${KIPRJMOD}/ECU_SW_Control_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "emb_uc_dspic33ev128gm104_3_xtal_4")(type "KiCad")(uri "C:/Mac/Home/Desktop/ECU_SW_Control/External_lib/LIB_CX3225CA12000D0KPSC1/CX3225CA12000D0KPSC1/KiCad/emb_uc_dspic33ev128gm104_3_xtal_4.kicad_sym")(options "")(descr ""))
+)

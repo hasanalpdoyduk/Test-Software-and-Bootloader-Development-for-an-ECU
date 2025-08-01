@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CX3225SB40000D0FLJCC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CX3225SB40000D0FLJCC")
+        (spec "default")
+    )
+)

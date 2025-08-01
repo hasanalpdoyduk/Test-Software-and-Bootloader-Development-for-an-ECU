@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=CX3225CA12000D0KPSC1
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=2.1
+Released=2019-02-08 12:33:38
+Downloaded=2024-12-03 12:15:36
+3D=Y

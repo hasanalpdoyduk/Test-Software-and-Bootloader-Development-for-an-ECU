@@ -1,0 +1,1 @@
+hexmate r0-47FF,..\..\..\Bootloader_24.05.25_checkCRC.X\dist\default\production\Bootloader_24.05.25_checkCRC.X.production.hex r4800-2A7FF,..\..\dist\default\production\UART_PWM-both.X.production.hex r2A800-FFFFFFFF,..\..\..\Bootloader_24.05.25_checkCRC.X\dist\default\production\Bootloader_24.05.25_checkCRC.X.production.hex -O..\..\dist\default\production\combined.production.hex

@@ -1,0 +1,1 @@
+hexmate r0-3FFF,../../../Bootloader_22.05.25_empty.X/dist/default/production/Bootloader_22.05.25_empty.X.production.hex r4000-2A7FF,../../dist/default/production/App_22.05.25_RB4HIGH.X.production.hex r2A800-FFFFFFFF,../../../Bootloader_22.05.25_empty.X/dist/default/production/Bootloader_22.05.25_empty.X.production.hex -O../../dist/default/production/combined.production.hex

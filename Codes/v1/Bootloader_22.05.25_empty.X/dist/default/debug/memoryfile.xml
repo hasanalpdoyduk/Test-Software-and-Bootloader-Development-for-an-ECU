@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/debug/Bootloader_22.05.25_empty.X.debug.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>642</used>
+      <free>7550</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>131136</length>
+      <used>126744</used>
+      <free>4392</free>
+    </memory>
+  </executable>
+</project>

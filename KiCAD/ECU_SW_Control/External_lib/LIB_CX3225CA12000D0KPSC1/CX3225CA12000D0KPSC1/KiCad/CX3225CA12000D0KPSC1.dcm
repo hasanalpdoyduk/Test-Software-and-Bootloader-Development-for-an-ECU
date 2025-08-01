@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CX3225CA12000D0KPSC1
+D Crystals 12MHz 8pF 3.2x2.5x0.8mm
+K
+F http://www.mouser.com/datasheet/2/909/cx3225ca_e-1316662.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "V10P10HM3_AH"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "V10P10HM3_AH")
+        (spec "default")
+    )
+)

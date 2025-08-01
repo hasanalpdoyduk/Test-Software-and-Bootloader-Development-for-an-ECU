@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_969855"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-08-28-13:24:28)
+    (utime 2025-03-05-09:04:48)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "V10P10HM3_A_H")
+)
+
+
+(pinAssign "ECS_969855"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-08-28-13:24:28)
+    (utime 2025-03-05-09:04:48)
+    (interface
+        (port "1" (symbPinId 1) (portName "A_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_969855")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "V10P10HM3_A_H")
+)
+
+
+(part "V10P10HM3_A_H"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-08-28-13:24:28)
+    (utime 2025-03-05-09:04:48)
+    (packageRef "V10P10HM3_A_H")
+    (pinAssignRef "ECS_969855")
+    (interface
+        (port "1" (symbPinId 1) (portName "A_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Schottky Diodes & Rectifiers 10A, 100V, SMPC, TRENCH SKY RECT.")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "V10P10HM3_A/H")
+    (property "Mouser_Part_Number" "78-V10P10HM3_A/H")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/V10P10HM3_A-H?qs=3SS1MhAOHqrR181ykGPqEg%3D%3D")
+    (property "Arrow_Part_Number" "V10P10HM3_A/H")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/v10p10hm3-ah/vishay?region=nac")
+    (property "Datasheet_Link" "https://www.digikey.ph/en/products/detail/vishay-general-semiconductor-diodes-division/V10P10HM3-A-H/5427050?msockid=39f1ec84d77b6f4428b7f904d6676eed")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

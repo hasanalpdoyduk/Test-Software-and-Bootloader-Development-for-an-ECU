@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/Bootloader_22.05.25_empty.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>562</used>
+      <free>7630</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>131136</length>
+      <used>126837</used>
+      <free>4299</free>
+    </memory>
+  </executable>
+</project>

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CX3225CA12000D0KPSC1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-03-29-09:18:29)
+    (mountForm default
+        (footprintRef "CX3225SB40000D0FLJCC")
+        (spec "System")
+    )
+)

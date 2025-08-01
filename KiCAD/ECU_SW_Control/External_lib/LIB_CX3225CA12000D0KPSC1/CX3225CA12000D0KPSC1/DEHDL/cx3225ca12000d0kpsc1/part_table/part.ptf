@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CX3225CA12000D0KPSC1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Kyocera AVX", "CX3225CA12000D0KPSC1" (!) = "", "CX3225SB40000D0FLJCC", "Other", "581-CX3225CA12DKPSC1", "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/CX3225CA12000D0KPSC1?qs=gTYE2QTfZfTE%252B%252BO7Iv6D7g%3D%3D", "CX3225CA12000D0KPSC1", "https://www.arrow.com/en/products/cx3225ca12000d0kpsc1/avx?region=nac", "Crystals 12MHz 8pF 3.2x2.5x0.8mm", "http://www.mouser.com/datasheet/2/909/cx3225ca_e-1316662.pdf"
+END_PART
+
+END.

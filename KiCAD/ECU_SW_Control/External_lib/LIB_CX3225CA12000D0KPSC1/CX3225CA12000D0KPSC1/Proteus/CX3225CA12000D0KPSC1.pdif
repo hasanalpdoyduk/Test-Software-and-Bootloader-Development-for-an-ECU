@@ -1,0 +1,135 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CX3225CA12000D0KPSC1"
+   (description "Crystals 12MHz 8pF 3.2x2.5x0.8mm")
+   (family "OSC")
+   (package "CX3225SB40000D0FLJCC")
+   (attribute "Datasheet Link" "http://www.mouser.com/datasheet/2/909/cx3225ca_e-1316662.pdf")
+   (attribute "Manufacturer_Name" "Kyocera AVX")
+   (attribute "Manufacturer_Part_Number" "CX3225CA12000D0KPSC1")
+   (attribute "Mouser Part Number" "581-CX3225CA12DKPSC1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/CX3225CA12000D0KPSC1?qs=gTYE2QTfZfTE%252B%252BO7Iv6D7g%3D%3D")
+   (attribute "Arrow Part Number" "CX3225CA12000D0KPSC1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/cx3225ca12000d0kpsc1/avx?region=nac")
+   (gate
+    (symbol "CX3225CA12000D0KPSC1")
+    (pin "HOT_1" 1 PS)
+    (pin "NC_1" 2 PS)
+    (pin "HOT_2" 3 PS)
+    (pin "NC_2" 4 PS)
+   )
+  )
+  (symbol "CX3225CA12000D0KPSC1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CX3225SB40000D0FLJCC"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 1.25)
+      (pt 1.6 1.25)
+      (pt 1.6 -1.25)
+      (pt -1.6 -1.25)
+      (pt -1.6 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 2.45)
+      (pt 2.8 2.45)
+      (pt 2.8 -3.05)
+      (pt -2.8 -3.05)
+      (pt -2.8 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.2 1.25)
+      (pt 0.2 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.6 -0.1)
+      (pt -1.6 0.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.6 0.1)
+      (pt 1.6 -0.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.2 -1.25)
+      (pt 0.2 -1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.2 -2)
+      (arc (pt -1.200 -2.000) (pt -1.200 -2.050) (pt -1.100 -1.950) (start -180.0) (sweep 180.0))
+      (pt -1.1 -2)
+      (arc (pt -1.100 -2.000) (pt -1.200 -2.050) (pt -1.100 -1.950) (start -180.0) (sweep .0))
+      (pt -1.2 -2))))
+   (leg 1 (pt -1.150 -0.925) (padstack 0))
+   (leg 2 (pt 1.150 -0.925) (padstack 0))
+   (leg 3 (pt 1.150 0.925) (padstack 0))
+   (leg 4 (pt -1.150 0.925) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.050 1.300 0 0 0.000))
+   )
+   (model "CX3225CA12000D0KPSC1.stp"
+    (euler 0 0 0)
+    (offset 0 0.009999999776482582 0.20999999344348907)
+   )
+  )
+ )
+)

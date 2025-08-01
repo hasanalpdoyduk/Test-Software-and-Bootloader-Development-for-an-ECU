@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ECU_SW_Control_lib")(type "KiCad")(uri "${KIPRJMOD}/ECU_SW_Control_lib.pretty")(options "")(descr ""))
+)
