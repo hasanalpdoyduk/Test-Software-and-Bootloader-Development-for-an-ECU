@@ -26,6 +26,8 @@ In addition to main components, other hardware parts such as resistors, capacito
 ![Block Diagram](https://github.com/hasanalpdoyduk/Test-Software-and-Bootloader-Development-for-an-ECU/blob/main/Images/block_diagram_last.png)
 
 The fully assembled PCB is shown here: [3D View of PCB](https://github.com/hasanalpdoyduk/Test-Software-and-Bootloader-Development-for-an-ECU/blob/main/Images/3D_view.pdf)
+
+
 ## Tools & Libraries
 
 - KiCad: Used for schematic and PCB design.
