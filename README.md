@@ -10,7 +10,7 @@ Furthermore, a custom board containing the dsPIC33 MCU was designed and manufact
 
 To initially load the bootloader onto the microcontroller, an external debugger is required. In this project, Microchip’s **PICkit 5** is used to program the dsPIC33 device.
 
-| Usage         | Component                                                        |
+| Type         | Component                                                        |
 | ----------------- | ------------------------------------------------------------------ |
 | Microcontroller | [dsPIC33](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/dsPIC33EVXXXGM00X-10X-Family-Data-Sheet-DS70005144H.pdf) |
 | CAN Transceiver | [MCP2561](https://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf) |
