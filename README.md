@@ -8,7 +8,7 @@ Software is securely transferred via one of these interfaces and written to the 
 Furthermore, a custom board containing the dsPIC33 MCU was designed and manufactured, successfully testing the bootloader and a PWM control implementation.
 ## Hardware Components
 
-To initially load the bootloader onto the microcontroller or test the PWM code, an external debugger is required. In this project, Microchip’s **PICkit 5** is used to program the dsPIC33 device.
+To initially load the bootloader onto the microcontroller or test the PWM control code, an external debugger is required. In this project, Microchip’s **PICkit 5** is used to program the dsPIC33 device.
 
 | Type         | Component                                                        |
 | ----------------- | ------------------------------------------------------------------ |
