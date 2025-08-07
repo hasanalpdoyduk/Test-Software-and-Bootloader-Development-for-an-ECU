@@ -21,6 +21,7 @@ To initially load the bootloader onto the microcontroller or test the PWM contro
 In addition to main components, other hardware parts such as resistors, capacitors, connectors, and oscillators are listed in the [Bill of Materials (BOM)](https://github.com/hasanalpdoyduk/Test-Software-and-Bootloader-Development-for-an-ECU/blob/main/KiCAD/ECU_SW_Control/Production_Files/BOM/ECU_SW_Control.csv).
 
 
+
 ## Block Diagram
 
 ![Block Diagram](https://github.com/hasanalpdoyduk/Test-Software-and-Bootloader-Development-for-an-ECU/blob/main/Images/block_diagram_last.png)
